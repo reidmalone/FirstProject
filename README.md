@@ -3,7 +3,7 @@
 
 Link to the website: https://reidmalone.github.io. 
 
-I pulled my data from https://www.pro-football-reference.com. They have an option to where you can download the file as a .csv. I used this, and got one for each year, 1969-2018. Also it is useful to highlight certain things, for example in 2007 Tom Brady and the Patriots had a historical year, and you can see that reflected with the stats. I really enjoyed getting to use D3 for this project, and it was my first exposure to any web development really. Below are some screenshots that highlight the average yards in 1969 vs 2018.
+I pulled my data from https://www.pro-football-reference.com. They have an option to where you can download the file as a .csv. I used this, and got one for each year, 1969-2018. I use whatever datafile is needed based upon the date selected with the slider at the top left. I find the website useful to highlight certain things, for example in 2007 Tom Brady and the Patriots had a historical year, and you can see that reflected with the stats. I really enjoyed getting to use D3 for this project, and it was my first exposure to any web development really. Below are some screenshots that highlight the average yards in 1969 vs 2018.
 
 
 ![Screenshot](pic1.png)
