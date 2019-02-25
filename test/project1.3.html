@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="//d3js.org/d3.v4.min.js">
+
+
+  </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3-queue/3.0.4/d3-queue.min.js"></script>
+  <style>
+    html, body, #vis {
+      height: 100%;
+      margin: 0;
+    }
+
+    .tooltip {
+      position: absolute;
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+<form>
+  <label for="year">Please select a year: </label>
+  <input type="range" min=1969 max=2018 step=1 id="year" value=2018 oninput="selected_year.value = year.value">
+  <output name="selected_year" id="selected_year">2018</output>
+</form>
+<select id="type">
+  <option value="Total">total</option>
+  <option value="Rushing" selected="rush">rush</option>
+  <option value="Passing">pass</option>
+</select>
+<div id="vis">
+</div>
+
+<script src="script.js">
+
+
+
+</script>
+
+
+</body>
+</html>
